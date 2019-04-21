@@ -96,7 +96,7 @@ class _ImageCarouselState extends State<ImageCarousel> with SingleTickerProvider
               children: [
                 
                 carousel,
-                new Text(currentpagepos.currentState.cambio==null ? "Hola":currentpagepos.currentState.cambio.toString()),
+                //new Text(currentpagepos.currentState.cambio==null ? "Hola":currentpagepos.currentState.cambio.toString()),
                 banner,
               ],
             ),
