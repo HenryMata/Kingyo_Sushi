@@ -45,8 +45,8 @@ Future<List> _consulta() async {
       final response = await http.post(
           "https://henrymata.hostingerapp.com/Kingyo_Sushi/Kingyo_Sushi_Procesos.php",
           body: {
-            "fd" : "2019-07-08",//fecha desde 
-            "fh" : "2019-07-13",//fecha hasta 
+            "fd" : "08-07-2019",//fecha desde 
+            "fh" : "13-07-2019",//fecha hasta 
             "Proceso": "20",
           });
        var datauser  = jsonDecode(response.body);
