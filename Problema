@@ -1,0 +1,126 @@
+D/FilePickerUtils(31786): Allowed file extensions mimes: [application/pdf]
+D/FilePickerDelegate(31786): Selected type */*
+D/DecorView(31786): showOrHideHighlightView: hasFocus=false; winMode=1; isMrgNull=true
+D/ZrHung.AppEyeUiProbe(31786): not watching, wait.
+D/RtgSched(31786): resetRtgSchedHandle failed enable:0
+W/libEGL  (31786): EGLNativeWindowType 0x6fe21f5010 disconnect failed
+W/libEGL  (31786): EGLNativeWindowType 0x6ff065a1d0 disconnect failed
+I/AwareBitmapCacher(31786): handleReleaseCache: pid=31786
+I/AwareBitmapCacher(31786): init lrucache size: 2097152 pid=31786
+W/System  (31786): A resource failed to call close.
+I/chatty  (31786): uid=10139(com.example.seven_arquitectura) FinalizerDaemon identical 1 line
+W/System  (31786): A resource failed to call close.
+D/ActivityThread(31786): Won't deliver top position change in state=5
+I/FilePickerDelegate(31786): [SingleFilePick] File URI:content://media/external/file/122501
+E/FilePickerUtils(31786): Getting for API 19 or abovecontent://media/external/file/122501
+D/ZrHung.AppEyeUiProbe(31786): restart watching
+E/FilePickerUtils(31786): NO DOCUMENT URI - CONTENT: /external/file/122501
+I/FilePickerDelegate(31786): Absolute file path:/storage/emulated/0/Download/Lista Ganadores ASPZ.pdf
+D/mali_winsys(31786): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+I/HwViewRootImpl(31786): removeInvalidNode all the node in jank list is out of time
+D/DecorView(31786): showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+W/InputMethodManager(31786): startInputReason = 1
+[38;5;244m[GETX] [39;49mGOING TO ROUTE /PdfViewer
+W/System.err(31786): java.io.FileNotFoundException: open failed: EACCES (Permission denied)
+W/System.err(31786): 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:315)
+W/System.err(31786): 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:220)
+W/System.err(31786): 	at pt.tribeiro.flutter_plugin_pdf_viewer.FlutterPluginPdfViewerPlugin.getNumberOfPages(FlutterPluginPdfViewerPlugin.java:91)
+W/System.err(31786): 	at pt.tribeiro.flutter_plugin_pdf_viewer.FlutterPluginPdfViewerPlugin.access$000(FlutterPluginPdfViewerPlugin.java:29)
+W/System.err(31786): 	at pt.tribeiro.flutter_plugin_pdf_viewer.FlutterPluginPdfViewerPlugin$1.run(FlutterPluginPdfViewerPlugin.java:61)
+W/System.err(31786): 	at android.os.Handler.handleCallback(Handler.java:900)
+W/System.err(31786): 	at android.os.Handler.dispatchMessage(Handler.java:103)
+W/System.err(31786): 	at android.os.Looper.loop(Looper.java:219)
+W/System.err(31786): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+E/flutter (31786): [ERROR:flutter/lib/ui/ui_dart_state.cc(177)] Unhandled Exception: Exception: Error reading PDF!
+[38;5;244mE/flutter (31786): #0      PDFDocument.fromFile[39;49m
+ package:advance_pdf_viewer/src/document.dart
+E/flutter (31786): <asynchronous suspension>
+[38;5;248mE/flutter (31786): #1      _PdfViewerState.getPDF[39;49m
+ package:seven_arquitectura/pages/pdf_view.dart
+[38;5;248mE/flutter (31786): #2      _PdfViewerState.initState[39;49m
+ package:seven_arquitectura/pages/pdf_view.dart
+[38;5;244mE/flutter (31786): #3      StatefulElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #4      ComponentElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #5      Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #6      Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #7      ComponentElement.performRebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #8      Element.rebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #9      ComponentElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #10     ComponentElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #11     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #12     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #13     SingleChildRenderObjectElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #14     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #15     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #16     SingleChildRenderObjectElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #17     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #18     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #19     ComponentElement.performRebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #20     StatefulElement.performRebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #21     Element.rebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #22     ComponentElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #23     StatefulElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #24     ComponentElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #25     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #26     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #27     SingleChildRenderObjectElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #28     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #29     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #30     SingleChildRenderObjectElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #31     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #32     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #33     ComponentElement.performRebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #34     StatefulElement.performRebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #35     Element.rebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #36     ComponentElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #37     StatefulElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #38     ComponentElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #39     Element.inflateWidget[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #40     Element.updateChild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #41     ComponentElement.performRebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #42     Element.rebuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #43     ComponentElement._firstBuild[39;49m
+ package:flutter/…/widgets/framework.dart
+[38;5;244mE/flutter (31786): #44     ComponentElement.mount[39;49m
+ package:flutter/…/widgets/framework.dart
+E/flutter (31786): #45     Element.inflateWidget (package:flutter/src/widgets/framework.dart:3569:
